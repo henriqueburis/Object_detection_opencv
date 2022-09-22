@@ -11,7 +11,7 @@ O rastreamento de objetos é uma tarefa muito útil quando aplicado no mundo rea
 
 ## Code organization
 
-- `opencv_rgb.py`: .
+- `object_detector_opencv.py`: .
 
 
 
@@ -19,6 +19,6 @@ O rastreamento de objetos é uma tarefa muito útil quando aplicado no mundo rea
 you can now carry out "run" the python scrypt with the following command:
 
 ```sh
-python3 opencv_rgb.py
+python3 object_detector_opencv.py
 
 ```
