@@ -1,4 +1,4 @@
-# Object Detection OpenCV -- RGB
+# Object Detection OpenCV
 
 By [Luiz H. Buris](http://)
 
