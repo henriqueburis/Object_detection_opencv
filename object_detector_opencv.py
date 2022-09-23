@@ -7,8 +7,6 @@ cap = cv2.VideoCapture("output1_orig.mp4")
 #object detection form stable camera
 object_detector = cv2.createBackgroundSubtractorKNN(history=2000,dist2Threshold=15000) #history=100,dist2Threshold=400,detectShadows=False
 
-
-
 while True:
     _, frame = cap.read()
     # resize do tamanho do video original
@@ -30,7 +28,6 @@ while True:
     cv2.imshow("mask", mask)
     cv2.imshow("frameClone", frameClone)
     cv2.imshow("roi", roi)
-    #cv2.imshow("limiar_frame", limiar_frame)
 
     key = cv2.waitKey(1)
     if key == 113:
